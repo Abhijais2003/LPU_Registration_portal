@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LPU REGISTRATION</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Validation Javascript file -->
+    <script src="index.js"></script>
+
+    <!-- Validation css -->
+    <link
+      rel="icon"
+      href="https://ums.lpu.in/lpuums/login_images/lpu_logo.png"
+    />
+  </head>
+  <body class="main">
+    <div class="from_container">
+      <h2 class="h1_main">
+        Don't have an account?! Want to
+        <span class="h1_part"> join us?!</span>
+      </h2>
+
+      <form
+        action=""
+        name="my_form"
+        onsubmit="return validate_form()"
+        method="post"
+        id="validateForm"
+      >
+        <!-- Name -->
+        <div class="form_class" id="inp-1">
+          <label for="fname">Name:</label>
+          <input
+            type="text"
+            name="fname"
+            id="name"
+            placeholder="Enter the first and last name"
+          />
+          <span class="form_error"></span>
+        </div>
+
+        <!-- Email -->
+        <div class="form_class" id="inp-2">
+          <label for="femail">Email ID:</label>
+          <input type="email" name="femail" id="email" placeholder="Email" />
+          <span class="form_error"></span>
+        </div>
+
+        <!-- City Dropdown List-->
+        <div class="form_class" id="dropdown">
+          <label for="fcity">Select city:</label>
+          <select name="fcity" name="dropdown" id="drop_down">
+            <option value="">Select</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Chennai">Chennai</option>
+            <option value="New-York">New-York</option>
+          </select>
+          <span class="form_error"></span>
+        </div>
+
+        <!-- Ration button for gender -->
+        <div class="form_class" id="radio">
+          <label class="not_block_label" for="fgender">Gender:</label>
+          <input
+            type="radio"
+            name="fgender"
+            class="radio"
+            id="radio_1"
+            value="male"
+          />
+          <label class="not_block_label" class="samll_radio" for="fmale"
+            >Male</label
+          >
+          <input
+            type="radio"
+            name="fgender"
+            class="radio"
+            id="radio_2"
+            value="female"
+          />
+          <label class="not_block_label" class="samll_radio" for="f_female"
+            >Female</label
+          >
+          <input
+            type="radio"
+            name="fgender"
+            class="radio"
+            id="radio_3"
+            value="other"
+          />
+          <label class="not_block_label" class="samll_radio" for="fother"
+            >Other</label
+          >
+          <span class="form_error"></span>
+        </div>
+
+        <!-- Password -->
+        <div class="form_class" id="inp-4">
+          <label for="fpassword">Password:</label>
+          <input
+            type="password"
+            name="fpassword"
+            id="password"
+            placeholder="Password"
+          />
+          <span class="form_error"></span>
+        </div>
+
+        <!-- Terms and conditions Agrees -->
+        <div class="form_class" id="terms">
+          <input type="checkbox" name="fterms" class="check_box" />
+          <label class="not_block_label" for="fcheckbox"
+            >I agree the terms and conditions
+          </label>
+          <span class="form_error" style="display: block"></span>
+        </div>
+
+        <!-- form buttons -->
+        <div>
+          <input type="submit" class="btn" value="Submit" />
+          <input type="reset" class="btn" />
+        </div>
+
+        <!-- Congrats message after form Submission -->
+        <div class="alert" id="successMessage"></div>
+      </form>
+    </div>
+  </body>
+
+  <!-- CDN for firebase hosting -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+
+  <!-- Firebase hosting JavaScript -->
+  <script src="index_firebase.js"></script>
+</html>

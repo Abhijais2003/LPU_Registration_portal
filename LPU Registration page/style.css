@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body */
+.main {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(255, 255, 255, 0.2)),
+    url("https://images.shiksha.com/mediadata/images/1488259268phpI3BoKQ.jpeg")
+      0 50%;
+  background-size: 250vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Form Main Container */
+.from_container {
+  padding: 80px 50px 50px 50px;
+  background: rgba(240, 243, 240, 0.5);
+  border-radius: 10px;
+}
+
+/* Form Hading */
+.h1_main {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.h1_part {
+  display: block;
+  text-align: center;
+}
+
+/* Main Form  */
+
+label {
+  display: block;
+  margin-bottom: -3px;
+}
+
+input:not(.btn, .check_box, .radio) {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.form_class {
+  margin-bottom: 10px;
+}
+
+.not_block_label {
+  display: inline;
+}
+
+#drop_down {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+#radio_1,
+#radio_2,
+#radio_3 {
+  margin: 0px 5px 0px 10px;
+}
+
+/* Form Button */
+.btn {
+  background-color: rgb(225, 168, 60);
+  border: none;
+  padding: 8px 25px 8px 25px;
+  margin-left: 10px;
+  border-radius: 20px;
+  color: white;
+  font-size: 15px;
+}
+
+.btn:hover {
+  background-color: lightcoral;
+  /* padding: 9px 26px 9px 26px; */
+}
+
+/* Form Validation Javascript Css */
+
+.form_error {
+  color: rgb(145, 0, 0);
+  font-size: small;
+}
+
+.big_statement {
+  display: flex;
+}
+
+/* Alret message for when the form details are correct (Validated) and passed to firebse */
+
+.alert {
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(145, 0, 0);
+  font-size: x-large;
+  font-weight: 900;
+  /* display: none; */
+}
