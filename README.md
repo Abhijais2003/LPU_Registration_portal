@@ -52,6 +52,15 @@ The HTML structure provides the foundation for the registration form, incorporat
 
 CSS styling brings life to the registration form, enhancing its visual appeal and user experience.
 
+.Before Styling:
+
+
+##### Styling:
+
+
+##### After Styling:
+
+
 ### JavaScript Form Validation
 
 ![JavaScript Form Validation](images/js_validation.png)
