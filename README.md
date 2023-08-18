@@ -83,9 +83,8 @@ JavaScript is employed to validate user inputs in real-time, ensuring the correc
 
 Firebase is integrated to store valid user registrations securely for future reference.
 
+![Firebase Integration_2](Screenshot/firebase_javaScript.png)
 ![Firebase Integration](Screenshot/Firebase.png)
-![Firebase Integration_2](Screenshot/firebase_javaScript.png
-.png)
 
 ## Getting Started
 
