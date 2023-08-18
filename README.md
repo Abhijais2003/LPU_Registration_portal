@@ -79,11 +79,12 @@ JavaScript is employed to validate user inputs in real-time, ensuring the correc
 
 ### Firebase Integration
 
-![Firebase Gif](Screenshot/firebase_gif)
+![Firebase Gif](Screenshot/firebase_gif.gif)
 
 Firebase is integrated to store valid user registrations securely for future reference.
 
 ![Firebase Integration](Screenshot/Firebase.png)
+![Firebase Integration_2](Screenshot/.png)
 
 ## Getting Started
 
