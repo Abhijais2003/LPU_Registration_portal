@@ -64,7 +64,7 @@ CSS styling brings life to the registration form, enhancing its visual appeal an
 
 ### JavaScript Form Validation
 
-![JavaScript Form Validation](Screenshot/Validation_before.png)
+![JavaScript Form Validation](Screenshot/form_validation.png)
 
 JavaScript is employed to validate user inputs in real-time, ensuring the correctness of submitted data.
 
@@ -84,7 +84,8 @@ JavaScript is employed to validate user inputs in real-time, ensuring the correc
 Firebase is integrated to store valid user registrations securely for future reference.
 
 ![Firebase Integration](Screenshot/Firebase.png)
-![Firebase Integration_2](Screenshot/.png)
+![Firebase Integration_2](Screenshot/firebase_javaScript.png
+.png)
 
 ## Getting Started
 
