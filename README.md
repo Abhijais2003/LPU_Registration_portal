@@ -59,7 +59,6 @@ CSS styling brings life to the registration form, enhancing its visual appeal an
 ![Before Styling](Screenshot/before.png)
 
 ##### After Styling:
-
 ![After Styling](Screenshot/after.png)
 
 
