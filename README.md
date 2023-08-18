@@ -42,36 +42,49 @@ The **LPU Registration Page** is a web application that simulates the registrati
 
 ### HTML Structure
 
-![HTML Structure](images/html_structure.png)
+![HTML Structure](Screenshot/HTML.png)
 
 The HTML structure provides the foundation for the registration form, incorporating necessary input fields and elements.
 
 ### CSS Styling
 
-![CSS Styling](images/css_styling.png)
+![CSS Styling](Screenshot/Css.png)
 
 CSS styling brings life to the registration form, enhancing its visual appeal and user experience.
 
-.Before Styling:
+#### Styling:
 
+##### Before Styling:
 
-##### Styling:
-
+![Before Styling](Screenshot/before.png)
 
 ##### After Styling:
+
+![After Styling](Screenshot/after.png)
 
 
 ### JavaScript Form Validation
 
-![JavaScript Form Validation](images/js_validation.png)
+![JavaScript Form Validation](Screenshot/Validation_before.png)
 
 JavaScript is employed to validate user inputs in real-time, ensuring the correctness of submitted data.
 
+##### Validation failed
+
+![JavaScript before Validation](Screenshot/Validation_before.png)
+
+##### Validation Fullfilled
+
+![JavaScript after Validation](Screenshot/Validation_after.png)
+
+
 ### Firebase Integration
 
-![Firebase Integration](images/firebase_integration.png)
+![Firebase Gif](Screenshot/firebase_gif)
 
 Firebase is integrated to store valid user registrations securely for future reference.
+
+![Firebase Integration](Screenshot/Firebase.png)
 
 ## Getting Started
 
