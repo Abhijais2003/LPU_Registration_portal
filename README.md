@@ -2,7 +2,7 @@
 
 Welcome to the **LPU Registration Page** project repository! This web application showcases a user registration form built with HTML, CSS, and JavaScript. The project focuses on form validation, ensuring that user inputs are accurate before submission. Valid submissions are stored in Firebase for future reference.
 
-![LPU Registration Page](images/registration_page.png)
+![LPU Registration Page](Screenshot/main.png)
 
 ## Table of Contents
 
